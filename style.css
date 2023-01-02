@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Anybody', cursive;
+  font-size: 20px;
+
+}
+
+/*contenedor*/
+.contenedor1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 500px;
+  border: 5px solid rgb(223, 7, 97);
+}
+
+/* navegador */
+i {
+ color: rgb(103, 0, 48);
+ padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+/* imagen perfil de usuario */
+img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+/*bordes de la imagen*/
+.imgcard {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 1px solid rgb(223, 7, 97);
+}
+
+.detalle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+/*parrafos */
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: 1em;
+  margin-inline-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/*alineando iconos*/
+.navCentral {
+ padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*efectos de iconos*/
+
+ul li:hover {
+  border: 4px solid rgb(223, 7, 97);
+  box-shadow: 0 0 7px rgb(148, 1, 197);
+  transition: all 0.5s ease;
+}
+
+ul li {
+  border: 4px solid transparent;
+}
+
+
+/* responsive design @ */
+
+@media (max-width: 520px) {
+  .contenedor1 {
+    width: 100%;
+  }
+  .contenedor2 {
+    border: none;
+  }
+}
+
+@media (max-width: 364px) {
+
+  .contenedor1 {
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+  }
+
+  .detalle {
+   
+    justify-content: center;
+    align-items: center;
+   
+  }
+ 
+  .navCentral {
+    display: block;
+  }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0ff6450461.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Curriculum</title>
+    <link rel="icon" href="img/cv.ico.ico">
+  </head>
+  <body>
+   <div class="contenedor1">
+    <div class="contenedor2">
+      <nav>
+        <!--imagen de usuario-->
+        <div class="cartaCompleta">
+          <div class="carta">
+            <div class="detalle">
+              <div class="imgcard">
+                <img
+                src="https://randomuser.me/api/portraits/women/82.jpg"
+                alt="foto de perfil de usuario"
+              />
+              </div>
+            </div>
+          </div>
+        </div>
+         <p id="user_title"></p>
+         <p id="user_value"></p>
+        <ul class="navCentral">
+          <li 
+            onmouseover= "handleClick"
+            class="nombre"
+            data-title="hola, mi nombre es"
+            data-value="Laurie Chapman"
+            data-label="nombre"
+          >
+            <i class="fa-solid fa-user"></i>
+          </li>
+          <li
+            onmouseover= "handleClick"
+            class="email"
+            data-title="Mi correo electrónico es"
+            data-value="laurie.chapman@example.com"
+            data-label="email"
+          >
+            <i class="fa-solid fa-envelope"></i>
+          </li>
+          <li
+            onmouseover= "handleClick"
+            class="cumpleaños"
+            data-title="mi cumpleaños es"
+            data-value="9/7/1951"
+            data-label="cumpleaños"
+          >
+            <i class="fa-regular fa-calendar-days"></i>
+          </li>
+          <li
+            onmouseover= "handleClick"
+            class="localización"
+            data-title="Mi dirección es"
+            data-value="9276 Groveland Terrace"
+            data-label="localización"
+          >
+          <i class="fa-solid fa-location-pin"></i>
+          </li>
+          <li
+            onmouseover= "handleClick"
+            class="telefono"
+            data-title="Mi número de teléfono es"
+            data-value="(923) 579-9990"
+            data-label="teléfono"
+          >
+            <i class="fa-sharp fa-solid fa-mobile"></i>
+          </li>
+          <li
+            onmouseover= "handleClick"
+            class="contraseña"
+            data-title="mi contraseña es"
+            data-value="christina"
+            data-label="contraseña"
+          >
+            <i class="fa-solid fa-lock"></i>
+          </li>
+        </ul>
+      </nav>
+     </div>
+   </div>
+   <footer>  
+    <p>copyright - CV</p>
+   </footer>
+
+   <script src="index.js"></script>
+  </body>
+</html>
